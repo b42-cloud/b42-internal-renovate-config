@@ -22,6 +22,7 @@
 
     // Activate custom managers
     "customManagers:githubActionsVersions",
+    "customManagers:tfvarsVersions",
   ],
 
   // Custom configuration
