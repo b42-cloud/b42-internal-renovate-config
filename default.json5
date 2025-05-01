@@ -15,5 +15,16 @@
     ":separateMultipleMajorReleases",
     ":timezone(Europe/Paris)",
     ":updateNotScheduled",
+
+    // Configure PRs' body
+    "security:openssf-scorecard",
+    "mergeConfidence:all-badges",
   ],
+
+  // Assignees and reviewers are randomly picked
+  assigneesFromCodeOwners: true,
+  reviewersFromCodeOwners: true,
+
+  // Custom PR labels
+  labels: ["{{#if updateType}}milestone:{{#if (or isPatch isPin isPinDigest)}}patch{{else}}{{{updateType}}}{{/if}}{{/if}}"],
 }
