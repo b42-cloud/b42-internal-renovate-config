@@ -1,0 +1,11 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    // Activate most of the best practice presets
+    // - pin all dependencies
+    // - dashboard
+    // - group recommended updates
+    // - etc
+    "config:best-practices",
+  ],
+}
