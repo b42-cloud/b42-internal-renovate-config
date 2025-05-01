@@ -19,6 +19,9 @@
     // Configure PRs' body
     "security:openssf-scorecard",
     "mergeConfidence:all-badges",
+
+    // Activate custom managers
+    "customManagers:githubActionsVersions",
   ],
 
   // Custom configuration
