@@ -21,6 +21,9 @@
     "mergeConfidence:all-badges",
   ],
 
+  // Custom configuration
+  dependencyDashboardTitle: "Renovate Dashboard 🤖",
+
   // Assignees and reviewers are randomly picked
   assigneesFromCodeOwners: true,
   reviewersFromCodeOwners: true,
