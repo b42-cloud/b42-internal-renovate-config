@@ -21,6 +21,7 @@
     "mergeConfidence:all-badges",
 
     // Activate custom managers
+    "customManagers:dockerfileVersions",
     "customManagers:githubActionsVersions",
     "customManagers:tfvarsVersions",
   ],
