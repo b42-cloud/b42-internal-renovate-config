@@ -25,6 +25,12 @@
   assigneesFromCodeOwners: true,
   reviewersFromCodeOwners: true,
 
+  // Custom branch prefix
+  branchPrefix: "renovate/refactoring/",
+
   // Custom PR labels
   labels: ["{{#if updateType}}milestone:{{#if (or isPatch isPin isPinDigest)}}patch{{else}}{{{updateType}}}{{/if}}{{/if}}"],
+
+  // Custom commit message
+  commitBody: "We just want to keep up with the upgrades.\n\nMilestone: {{#if (or isPatch isPin isPinDigest)}}patch{{else}}{{{updateType}}}{{/if}}",
 }
