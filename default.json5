@@ -7,5 +7,13 @@
     // - group recommended updates
     // - etc
     "config:best-practices",
+
+    // Scheduling
+    "schedule:nonOfficeHours",
+    ":disableRateLimiting",
+    ":rebaseStalePrs",
+    ":separateMultipleMajorReleases",
+    ":timezone(Europe/Paris)",
+    ":updateNotScheduled",
   ],
 }
